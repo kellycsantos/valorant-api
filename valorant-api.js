@@ -9,6 +9,28 @@ app.listen(PORT, () => {
 })
  app.get("/", (req,res) =>{
     res.json({
+    roles :[
+      {
+        "role":"Controlador",
+        "description": "Controladores se dedicam a dissecar territórios perigosos e pavimentar o caminho do sucesso para a equipe.",
+        "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+      },
+      {
+        "role":"Duelista",
+        "description": "Duelistas são abatedores independentes que estão sempre prontos para o confronto. Eles usam habilidades e perícia para conseguir vários abates.",
+        "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+      },
+      {
+        "role":"Iniciador",
+        "description": "Iniciadores desafiam situações arriscadas, preparando a equipe para entrar em terreno contestado e rechaçar defensores.",
+        "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+      },
+      {
+        "role":"Sentinela",
+        "description": "Sentinelas são especialistas em defesa que podem bloquear áreas e vigiar flancos, tanto nas rodadas de ataque, quanto nas de defesa.",
+        "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+      }
+    ],  
     data : [
       {
         "uuid": "dade69b4-4f5a-8528-247b-219e5a1facd6",
